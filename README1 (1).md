@@ -1,3 +1,8 @@
+|Nama|Divisi|Sub-Divisi|
+|----|------|----------|
+|Muhammad Gian Yudha Prawira| ELC | Microcontroller|
+
+
 ![ELC_M  Gian Yudha P](https://github.com/user-attachments/assets/bc6b860d-ad89-4af8-835d-fdc78d17cc00)
 
 # ERC
