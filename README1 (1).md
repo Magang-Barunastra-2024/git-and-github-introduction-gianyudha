@@ -1,6 +1,6 @@
 ![ELC_M  Gian Yudha P](https://github.com/user-attachments/assets/bc6b860d-ad89-4af8-835d-fdc78d17cc00)
 
-#ERC
+# ERC
 Komponen power dari sistem ini adalah baterai LiPo 7.4V dengan kapasitas 2200mAh. Baterai ini dipilih karena menyesuaikan regulasi pada lomba ERC 2024. Penggunaan baterai Li-Po karena kewetan dari baterai itu sendiri. Untuk sistem utamanya menggunakan mikrokontroler STM32H7. Cara kerjanya seperti komputer kecil yang mengatur semua gerakan kapal. Mikrokontroler ini menerima perintah dari pengendali jarak jauh (remote control) melalui modul LoRa yang bekerja di frekuensi 2.4GHz dimana sistem komunikasi ini bisa mengirim dan menerima perintah sampai jarak yang jauh. Untuk menggerakkan kapal, digunakan  motor DC yang berkaitan dengan mikrokontroler. Saat remote control ditekan maju, sinyal diterima oleh modul LoRa, kemudian diproses oleh mikrokontroler, dan akhirnya driver motor bergerak. Terdapat servo rudder yang terhubung ke STM32H7 untuk menggerakan manuver kapal. Sistem ini juga dilengkapi dengan fitur keselamatan berupa tombol darurat (emergency stop) yang bisa langsung mematikan seluruh sistem jika terjadi hal yang tidak diinginkan. 
 
 # FERC
