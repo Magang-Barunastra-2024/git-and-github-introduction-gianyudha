@@ -1,7 +1,7 @@
 # PENGENALAN GIT DAN GITHUB
 |Nama|Divisi|Sub-Divisi|
 |----|------|----------|
-|Muhammad Gian Yudha Prawira| ELC | Microcontroller|
+|Muhammad Gian Yudha Prawira| ELC/PGR | Microcontroller|
 
 ## Cara Menggunakan Git dan Github
 ### 1. Unduh dan pasang Git pada PC/Laptop
