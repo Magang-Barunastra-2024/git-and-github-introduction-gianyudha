@@ -33,6 +33,7 @@
 
 ## Push File dari Lokal ke Github
 ### 1. Buat Folder dengan Nama yang Sama dengan Nama Repositori lalu Buka Folder yang telah dibuat
+![WhatsApp Image 2024-11-22 at 13 50 00_0656633c](https://github.com/user-attachments/assets/d43b4aa9-efca-49d8-91c4-30d74a50ae71)
 ### 2. Buat File Baru untuk Diunggah ke Github
 ### 3. Klik Kanan pada Mouse Lalu Pilih "Open Git Bash here"
 ### 4. Lalu Masukkan Command Berikut pada Git Bash
