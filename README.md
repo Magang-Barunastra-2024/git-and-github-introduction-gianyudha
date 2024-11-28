@@ -281,12 +281,17 @@ Bahasa ini sangat populer dan digunakan secara luas dalam pengembangan perangkat
 |Nama|Divisi|Sub-Divisi|
 |----|------|----------|
 |Muhammad Gian Yudha Prawira| ELC | Microcontroller|
-# SCHEMATIC BOOST CONVERTER
+# BOOST CONVERTER
+Boost converter adalah perangkat elektronika daya yang berfungsi untuk menaikkan tegangan DC (Direct Current) ke level yang lebih tinggi. Perangkat ini termasuk dalam kategori DC-DC converter yang mengubah tegangan masukan DC menjadi tegangan keluaran DC yang lebih besar. Boost converter umumnya digunakan oleh teknisi, insinyur, dan industri yang membutuhkan peningkatan tegangan DC. Perangkat ini juga dimanfaatkan oleh pengguna umum dalam berbagai aplikasi elektronik sehari-hari. Boost converter dapat ditemukan dalam berbagai peralatan elektronik seperti laptop, smartphone, panel surya, sistem pencahayaan LED, dan kendaraan listrik. Perangkat ini juga banyak digunakan di laboratorium elektronika dan lingkungan industri. Boost converter digunakan ketika diperlukan peningkatan tegangan DC, terutama saat tegangan sumber lebih rendah dari tegangan yang dibutuhkan beban. Boost converter diperlukan karena beberapa alasan seperti menyesuaikan level tegangan dari sumber dengan kebutuhan beban, untuk mengoptimalkan efisiensi transfer, untuk memaksimalkan penggunaan sumber daya dengan tegangan rendah, dan lain sebagainya. Boost converter bekerja dengan prinsip switching dan penyimpanan energi. Prosesnya melibatkan beberapa komponen utama seperti induktor, kapasitor, dioda, dan switch (biasanya MOSFET). Saat switch ON, arus mengalir melalui induktor dan menyimpan energi dalam bentuk medan magnet. Ketika switch OFF, energi yang tersimpan dalam induktor dilepaskan ke beban bersama dengan tegangan sumber, menghasilkan tegangan keluaran yang lebih tinggi.
+## SCHEMATIC BOOST CONVERTER
 ![WhatsApp Image 2024-11-29 at 03 13 18_0f5a33bd](https://github.com/user-attachments/assets/d49b9ce8-fcf4-4861-b15d-9012530ff3df)
-# PCB BOOST CONVERTER
+### Langkah-langkah pembuatan schematic
+
+## PCB BOOST CONVERTER
 ![WhatsApp Image 2024-11-29 at 04 10 10_7e0c1b47](https://github.com/user-attachments/assets/9bba6d67-8231-4b0a-b4b8-b10db21b2472)
-# 3D VIEWER
+## 3D VIEWER
 ![WhatsApp Image 2024-11-29 at 04 10 40_b58df6dc](https://github.com/user-attachments/assets/81b0efbc-adf8-4529-bea5-2290c783e21d)
+
 
 
 
