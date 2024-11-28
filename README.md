@@ -113,3 +113,30 @@ Komponen power dari sistem ini adalah baterai LiPo 7.4V dengan kapasitas 2200mAh
 # FERC
 Sistem ini menggunakan baterai kering 12V/7Ah sebagai sumber listrik utama. Baterai ini seperti aki motor pada umumnya, yang fungsinya menyuplai listrik ke semua komponen elektronik di kapal. Bedanya dengan ERC, baterai di sini tidak untuk menggerakkan kapal, tapi untuk menghidupkan sistem elektronik dan starter mesin. Otak dari sistem ini ada pada CPU, yang bertugas mengatur semua perintah dan mengontrol berbagai komponen. Komponen ini terhubung dengan berbagai sensor penting: sensor RPM yang mengukur kecepatan putaran mesin, sensor temperatur yang memantau panas mesin, dan sensor tekanan oli yang memastikan pelumasan mesin berjalan baik. Untuk sistem kendali jarak jauh, digunakan modul Lora yang bekerja di frekuensi 2.4GHz, lalu remote control mengirim sinyal ke penerima di kapal, kemudian CPU memproses perintah tersebut untuk mengatur kecepatan mesin melalui servo yang mengontrol throttle (gas). Sistem keamanan juga lebih kompleks. Ada tombol emergency stop yang bisa langsung mematikan mesin dalam keadaan darurat. Sensor-sensor yang terpasang terus memantau kondisi mesin.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|Nama|Divisi|Sub-Divisi|
+|----|------|----------|
+|Muhammad Gian Yudha Prawira| ELC | Microcontroller|
+# SCHEMATIC BOOST CONVERTER
+![WhatsApp Image 2024-11-29 at 03 13 18_0f5a33bd](https://github.com/user-attachments/assets/d49b9ce8-fcf4-4861-b15d-9012530ff3df)
+# PCB BOOST CONVERTER
+![WhatsApp Image 2024-11-29 at 04 10 10_7e0c1b47](https://github.com/user-attachments/assets/9bba6d67-8231-4b0a-b4b8-b10db21b2472)
+# 3D VIEWER
+![WhatsApp Image 2024-11-29 at 04 10 40_b58df6dc](https://github.com/user-attachments/assets/81b0efbc-adf8-4529-bea5-2290c783e21d)
+
+
+
