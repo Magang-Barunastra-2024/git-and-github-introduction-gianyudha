@@ -74,4 +74,42 @@
 ### 2. Untuk melihat riwayat commit dalam repository:
     git log
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|Nama|Divisi|Sub-Divisi|
+|----|------|----------|
+|Muhammad Gian Yudha Prawira| ELC | Microcontroller|
+
+
+![ELC_M  Gian Yudha P](https://github.com/user-attachments/assets/bc6b860d-ad89-4af8-835d-fdc78d17cc00)
+
+# ERC
+Komponen power dari sistem ini adalah baterai LiPo 7.4V dengan kapasitas 2200mAh. Baterai ini dipilih karena menyesuaikan regulasi pada lomba ERC 2024. Penggunaan baterai Li-Po karena kewetan dari baterai itu sendiri. Untuk sistem utamanya menggunakan mikrokontroler STM32H7. Cara kerjanya seperti komputer kecil yang mengatur semua gerakan kapal. Mikrokontroler ini menerima perintah dari pengendali jarak jauh (remote control) melalui modul LoRa yang bekerja di frekuensi 2.4GHz dimana sistem komunikasi ini bisa mengirim dan menerima perintah sampai jarak yang jauh. Untuk menggerakkan kapal, digunakan  motor DC yang berkaitan dengan mikrokontroler. Saat remote control ditekan maju, sinyal diterima oleh modul LoRa, kemudian diproses oleh mikrokontroler, dan akhirnya driver motor bergerak. Terdapat servo rudder yang terhubung ke STM32H7 untuk menggerakan manuver kapal. Sistem ini juga dilengkapi dengan fitur keselamatan berupa tombol darurat (emergency stop) yang bisa langsung mematikan seluruh sistem jika terjadi hal yang tidak diinginkan. 
+
+# FERC
+Sistem ini menggunakan baterai kering 12V/7Ah sebagai sumber listrik utama. Baterai ini seperti aki motor pada umumnya, yang fungsinya menyuplai listrik ke semua komponen elektronik di kapal. Bedanya dengan ERC, baterai di sini tidak untuk menggerakkan kapal, tapi untuk menghidupkan sistem elektronik dan starter mesin. Otak dari sistem ini ada pada CPU, yang bertugas mengatur semua perintah dan mengontrol berbagai komponen. Komponen ini terhubung dengan berbagai sensor penting: sensor RPM yang mengukur kecepatan putaran mesin, sensor temperatur yang memantau panas mesin, dan sensor tekanan oli yang memastikan pelumasan mesin berjalan baik. Untuk sistem kendali jarak jauh, digunakan modul Lora yang bekerja di frekuensi 2.4GHz, lalu remote control mengirim sinyal ke penerima di kapal, kemudian CPU memproses perintah tersebut untuk mengatur kecepatan mesin melalui servo yang mengontrol throttle (gas). Sistem keamanan juga lebih kompleks. Ada tombol emergency stop yang bisa langsung mematikan mesin dalam keadaan darurat. Sensor-sensor yang terpasang terus memantau kondisi mesin.
+
