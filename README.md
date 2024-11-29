@@ -300,9 +300,12 @@ Berikut adalah hasil drc dan update PCB from schematic.
 ## PCB BOOST CONVERTER
 Berikut adalah hasil Routing PCB
 ![WhatsApp Image 2024-11-29 at 04 10 10_7e0c1b47](https://github.com/user-attachments/assets/9bba6d67-8231-4b0a-b4b8-b10db21b2472)
-Terdapat routing bewaarna merah dan biru. Routing bewarna merah sebagai bagian depan dari pcb sedangkan routing bewarna biru menunjukkan routing di belakang pcb. Dapat dikatakan bahwa pcb yang saya buat adalah PCB boost converter dua layer.
+Terdapat routing bewarna merah dan biru. Routing bewarna merah sebagai bagian depan dari pcb sedangkan routing bewarna biru menunjukkan routing di belakang pcb. Dapat dikatakan bahwa pcb yang saya buat adalah PCB boost converter dua layer. 
 ## 3D VIEWER
+Berikut adalah bentuk 3D dri PCB yang telah dibuat
 ![WhatsApp Image 2024-11-29 at 04 10 40_b58df6dc](https://github.com/user-attachments/assets/81b0efbc-adf8-4529-bea5-2290c783e21d)
+
+
 
 
 
