@@ -305,7 +305,41 @@ Terdapat routing bewarna merah dan biru. Routing bewarna merah sebagai bagian de
 Berikut adalah bentuk 3D dri PCB yang telah dibuat
 ![WhatsApp Image 2024-11-29 at 04 10 40_b58df6dc](https://github.com/user-attachments/assets/81b0efbc-adf8-4529-bea5-2290c783e21d)
 
+# TUGAS C
+    #include <stdio.h>
+    #include <string.h>
 
+    struct Mahasiswa {
+    char Nama[50];
+    char NRP[15];
+    char Jurusan[20];
+    };
+
+    int main() {
+    struct Mahasiswa mhs[5];
+    
+    for(int i = 0; i < 5; i++) {
+        printf("Data mahasiswa %d\n", i+1);
+        printf("Nama: ");
+        scanf("%s", mhs[i].Nama);
+        printf("NRP: ");
+        scanf("%s", mhs[i].NRP);
+        printf("Jurusan: ");
+        scanf("%s", mhs[i].Jurusan);
+    }
+    
+    printf("\nTeman sejurusan:\n");
+    for(int i = 0; i < 5; i++) {
+        for(int j = i + 1; j < 5; j++) {
+            if(strcmp(mhs[i].Jurusan, mhs[j].Jurusan) == 0) {
+                printf("%s dan %s dari jurusan %s\n", 
+                    mhs[i].Nama, mhs[j].Nama, mhs[i].Jurusan);
+            }
+        }
+    }
+    
+    return 0;
+    }
 
 
 
